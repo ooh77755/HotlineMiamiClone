@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -257,9 +257,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6300962076943225710, guid: a106008dc3dfa114cb492d76a14dda31, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 6300962077391783357}
     - target: {fileID: 6300962076943225712, guid: a106008dc3dfa114cb492d76a14dda31, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a106008dc3dfa114cb492d76a14dda31, type: 3}
+--- !u!4 &6300962077391783357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2134385700968884017, guid: a106008dc3dfa114cb492d76a14dda31, type: 3}
+  m_PrefabInstance: {fileID: 6300962077391783356}
+  m_PrefabAsset: {fileID: 0}
