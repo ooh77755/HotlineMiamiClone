@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2134385700968884017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 6300962076943225711}
   - component: {fileID: 6300962076943225710}
   - component: {fileID: 6300962076943225713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,6 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runningSpeed: 5
   bullet: {fileID: 8849652275937084076, guid: a2802ab510bdeb041b3dc24885ca43ba, type: 3}
+  gun: {fileID: 0}
 --- !u!50 &6300962076943225713
 Rigidbody2D:
   serializedVersion: 4
