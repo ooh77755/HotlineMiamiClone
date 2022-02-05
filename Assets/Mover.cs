@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class Mover : MonoBehaviour
 {
     [SerializeField] float runningSpeed = 5f;
+    [SerializeField] GameObject bullet;
     Vector2 moveInput;
     Rigidbody2D rb;
 
@@ -43,4 +44,10 @@ public class Mover : MonoBehaviour
         }
     }
 
+    void OnFire(InputValue value)
+    {
+        GameObject bulletPrefab = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
+        bulletPrefab.GetComponent<Rigidbody2D>().velocity = new Vector2(10, 0);
+    }
+    
 }
