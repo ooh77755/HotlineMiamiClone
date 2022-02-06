@@ -14,7 +14,7 @@ TagManager:
   - Player
   - Bullet
   - Enemy
-  - 
+  - Foreground
   - 
   - 
   - 
@@ -40,6 +40,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3658081999
+    locked: 0
+  - name: Foreground
+    uniqueID: 3701727865
     locked: 0
   - name: Player
     uniqueID: 750488591
